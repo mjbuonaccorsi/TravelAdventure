@@ -1,0 +1,85 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.btn-outline-login {
+    color: #9dbdbf;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+.nav-login {
+	float: right;
+}
+
+.nav-login form {
+	float: left;
+	padding-top: 15px;
+}
+
+.nav-login form input {
+	float: left;
+	width: 140px;
+	height: 30px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #aacef3 !important;
+	color: #111 !important;
+	line-height: 30px;
+ }
+ .signup-form {
+	 width: 400px;
+	 margin: 0 auto;
+	 padding-top: 30px;
+ }
+
+  .signup-form input {
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	border: 1px;;
+	background-color: #fff !important;
+	border-color: #aacef3 !important;
+	color: #111 !important;
+	font-size: 16px;
+	line-height: 40px;
+	margin-bottom: 4px;
+ }
+
+  .signup-form button {
+	  display: block;
+	width: 30%;
+	height: 40px;
+	border: none;
+	border: 1px;;
+	background-color: #aacef3 !important;
+	color: #111 !important;
+	cursor: pointer;
+ }
+   .signup-form button:hover {
+	   	background-color: #111 !important;
+
+   }

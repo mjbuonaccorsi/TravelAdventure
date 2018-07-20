@@ -1,2 +1,2 @@
-# ackermann2
-ackemann sample with optional cache and Service Discovery
+# Travel Adventure
+Rest Service API running in Spring Boot protected by Apache Shiro. 
